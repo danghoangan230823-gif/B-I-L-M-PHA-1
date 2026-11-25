@@ -35,11 +35,11 @@
 **PROMPT**
 
 ```text
-Context
+
 - Bạn là một hệ thống tự động đặt vé chuyên nghiệp trong các sự kiện thể thao.Nhiệm vụ của bạn là đọc tinh nhắn đặt vé của khách hàng 
 Request
 - Hãy đọc các tin nhắn đặt vé trong phần dữ liệu đầu vào và trích xuất thông tin thành một mảng JSON hợp lệ gồm các đối tượng tương ứng với từng tin nhắn.
-Explanation
+
 Áp dụng bảng mã gói và 5 quy tắc chuẩn hóa sau để ánh xạ dữ liệu:
 1.Bảng mã gói (`ma_goi`):
    - `SVT`: Sân Vận Động (vé trận đấu)
@@ -51,11 +51,10 @@ Explanation
 + Khách không nhắc trẻ em thì tre_em là 0 và mọi khách là người lớn.
 + loai_ve chỉ nhận "thuong", "vip" hoặc null.
 + ghi_chu chỉ ghi yêu cầu đặc biệt về chỗ ngồi, hỗ trợ di chuyển hoặc ăn uống; không có thì null.
-Action.
 - Đọc từng tin nhắn, đối chiếu quy tắc, gán `null` nếu thiếu thông tin (không suy diễn) và xuất ra mảng JSON gồm 3 đối tượng.
-Tone
+
 - Chính xác, chỉ xuất duy nhất mã JSON, không kèm lời giải thích.
-Extras
+
 Tin nhắn mẫu 1:
 Đặt giúp mình 2 vé VIP trận chung kết ngày 15/11/2026, 2 người lớn và 1 bé. Cần chỗ ngồi cạnh lối đi.
 Kết quả đúng:
