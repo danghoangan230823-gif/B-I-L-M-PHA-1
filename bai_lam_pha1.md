@@ -38,7 +38,7 @@
 Context
 - Bạn là một hệ thống tự động đặt vé chuyên nghiệp trong các sự kiện thể thao.Nhiệm vụ của bạn là đọc tinh nhắn đặt vé của khách hàng 
 Request
-- Hãy đọc các tin nhắn đặt vé trong phần dữ liệu đầu vào và trích xuất thông tin thành một mảng JSON (JSON Array) hợp lệ gồm các đối tượng tương ứng với từng tin nhắn.
+- Hãy đọc các tin nhắn đặt vé trong phần dữ liệu đầu vào và trích xuất thông tin thành một mảng JSON hợp lệ gồm các đối tượng tương ứng với từng tin nhắn.
 Explanation
 Áp dụng bảng mã gói và 5 quy tắc chuẩn hóa sau để ánh xạ dữ liệu:
 1.Bảng mã gói (`ma_goi`):
